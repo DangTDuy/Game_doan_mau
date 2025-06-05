@@ -211,7 +211,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 .color-options.hard {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .color-option {
@@ -485,6 +485,9 @@ body {
      .target-color-section {
         padding-top: 8px;
      }
+    .color-options.hard {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -548,6 +551,9 @@ body {
     }
     .footer {
         margin-top: 0;
+    }
+    .color-options.hard {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
